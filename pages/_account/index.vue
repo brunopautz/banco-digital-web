@@ -73,7 +73,6 @@ export default {
     async asyncData({ redirect, route, store }) {
         try {
             const datas = await store.dispatch('account/account', route.params.account);
-            console.log(datas)
             return {
                 account: datas.account,
                 movements: datas.movements
@@ -88,7 +87,6 @@ export default {
         async saque() {
             this.validationErrors = false
             const form = {
-                type: 0,
                 value: this.saque_value,
                 account: this.account.account
             }
@@ -106,7 +104,6 @@ export default {
             this.validationErrors = false
 
             const form = {
-                type: 1,
                 value: this.deposito_value,
                 account: this.account.account
             }
