@@ -11,6 +11,9 @@ Essas foram as tecnologias utilizadas para construção da API.
 ## Instalação do sistema
 
 ```bash
+# clone repositorio
+https://github.com/brunopautz/banco-digital-web.git
+
 # install dependencies
 $ npm install
 
