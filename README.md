@@ -7,12 +7,14 @@ Sistema para acessar o banco digital.
 Essas foram as tecnologias utilizadas para construção da API.
 
 - Node v16.10.0
+- Npm 7.24.0
+
 
 ## Instalação do sistema
 
 ```bash
 # clone repositorio
-https://github.com/brunopautz/banco-digital-web.git
+git clone https://github.com/brunopautz/banco-digital-web.git
 
 # install dependencies
 $ npm install
